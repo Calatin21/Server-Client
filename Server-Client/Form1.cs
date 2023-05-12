@@ -11,7 +11,7 @@ namespace Server_Client {
         public void LadeSeiten() {
             foreach (Webpage item in Diener.Webseiten) {
                 textBox3.Text += item.Name + "\r\n";
-            } 
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e) {

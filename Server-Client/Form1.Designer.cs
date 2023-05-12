@@ -27,7 +27,6 @@
             textBox2 = new TextBox();
             label1 = new Label();
             textBox3 = new TextBox();
-
             SuspendLayout();
             // 
             // textBox1
@@ -74,7 +73,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Netscape";
             ResumeLayout(false);
             PerformLayout();
         }
